@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.GridExample"
+             Title="GridExample">
+
+    <Grid Margin="5" RowDefinitions="*,4*,*" ColumnDefinitions="*">
+        <Border Grid.Row="0" BackgroundColor="LightPink">
+            
+
+        </Border>
+
+
+
+
+     
+            <Grid Grid.Row="1" BackgroundColor="Pink"  RowDefinitions="*,*,*" ColumnDefinitions="3*,3*,3*,*">
+                
+                    <Button FontSize="15" BorderColor="Black" BorderWidth="1" TextColor="black" x:Name="one" BackgroundColor="Transparent"  HeightRequest="60" WidthRequest="60" Text="1"/>
+                
+
+            </Grid>
+       
+
+
+
+
+        <Border Grid.Row="3" BackgroundColor="LightPink"/>
+    </Grid>
+
+
+</ContentPage>
