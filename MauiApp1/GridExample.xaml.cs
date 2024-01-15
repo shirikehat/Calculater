@@ -6,4 +6,10 @@ public partial class GridExample : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Print(object sender, EventArgs e)
+    {
+		Button button = (Button)sender;
+		
+    }
 }
